@@ -20,12 +20,11 @@ For Testing Model:
 
 ----------------------------------------------------------------------------------------------------------
 2) Using Google Colab: 
-	1. Open 'https://drive.google.com/drive/folders/1iMSaZR28xMUHBdFp4eUR1twWp6oczkeT?usp=sharing' link.
-	2. Download and unzip 'GSRM-OWN_Model' from above link and add it to your Google Drive.
-	3. from google.colab import drive
+	1. Download and unzip 'GSRM-OWN_Model' folder and add it to your Google Drive.
+	2. from google.colab import drive
 	   drive.mount('/content/gdrive/')
-	4. % cd gdrive/My Drive/folder_path
-	5. cd GSRM-OWN_MODEL
-	6. ! python GSRM_OWN_TESTING.py - Run this command in colab.
-	7. You can see output images in 'GSRM_SR_IMAGES' folder.
+	3. % cd gdrive/My Drive/folder_path
+	4. cd GSRM-OWN_MODEL
+	5. ! python GSRM_OWN_TESTING.py - Run this command in colab.
+	6. You can see output images in 'GSRM_SR_IMAGES' folder.
 ----------------------------------------------------------------------------------------------------------
